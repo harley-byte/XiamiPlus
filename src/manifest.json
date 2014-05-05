@@ -1,0 +1,16 @@
+{
+  "name": "PP刷屏助手",
+  "description": "虾米刷屏插件",
+  "version": "1.1",
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "browser_action": {
+      "default_title": "点击刷屏",
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
