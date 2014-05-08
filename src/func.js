@@ -62,7 +62,7 @@ function sendmsg() {
 	var sendbtn = getElementsByClassName(document, 'btn-send')[0];
   sendbox.value = msg + gencode2();// + "[" + Math.random() + "]";
   sendbtn.click();
-  timer=setTimeout("sendmsg()", 200);
+  timer=setTimeout("sendmsg()", 500);
 }
 
 function rush(action) {
